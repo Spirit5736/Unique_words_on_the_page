@@ -1,8 +1,5 @@
 ﻿using HtmlAgilityPack;
 
-
-
-
 namespace Unique_words_on_the_page
 {
     public class WebReader
