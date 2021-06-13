@@ -8,7 +8,7 @@ namespace Unique_words_on_the_page
         {    
             var htmlWeb = new HtmlWeb();
             var doc = htmlWeb.Load(html);
-            var htmlNode = doc.DocumentNode.SelectSingleNode("//div/main");
+            var htmlNode = doc.DocumentNode.SelectSingleNode("//html/body");
             string textFromNode = htmlNode.InnerText;
             return textFromNode;
         }
